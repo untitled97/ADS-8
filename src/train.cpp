@@ -24,7 +24,7 @@ void Train::addCage(bool light) {
 int Train::getLength() {
     Cage* ptr = first;
     first->light = true;
-    uint64_t counter = 1;
+    int counter = 1;
     ptr = ptr->next;
     countOp++;
     while (ptr) {
